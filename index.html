@@ -22,13 +22,19 @@
 <header class="mb-5">
 <!-- Navbar -->
 <!-- As a heading -->
+
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-12">
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <span class="navbar-brand mb-0 p-3 ps-5 fs-3 h1">Royal Wedding Convention Center</span>
+      <span class="navbar-brand mb-0 p-3 ps-4 fs-3 fw-bolder h1">Royal Wedding Convention Center</span>
     </div>
   </nav>
-
+</div>
+</div>
   <!-- Carousel -->
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-12">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -38,23 +44,26 @@
     <div class="carousel-inner img-div">
       <div class="carousel-item active">
         <img src="venue1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-md-block display-line">
           <h1 class="display-5 fw-bolder">The perfect venue for a perfect wedding event</h1>
           <p>Host your wedding event with us for a perfect wedding ceremony.</p>
+          <a class="btn btn-light text-primary fs-5 fw-bolder mb-4" href="https://www.google.com/" role="button">Book Now</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="venue2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-md-block">
           <h1 class="display-5 fw-bolder">Make your dream wedding come true</h1>
           <p>Make your vision of your wedding ceremony into reality with us.</p>
+            <a class="btn btn-light text-primary fs-5 fw-bolder mb-4" href="https://www.google.com/" role="button">Book Now</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="venue3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-md-block">
           <h1 class="display-5 fw-bolder">Rock your wedding.</h1>
           <p>Book your wedding event or reception with us.</p>
+            <a class="btn btn-light text-primary fs-5 fw-bolder mb-4" href="https://www.google.com/" role="button">Book Now</a>
         </div>
       </div>
     </div>
@@ -69,11 +78,25 @@
     
   </div>
   </div>
+</div>
+</div>
 
     </header>
 
 
     <main>
+
+      
+<!-- toast -->
+<div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      20% off on next booking
+   </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+
       <!-- "Our Package" Section -->
       <section class="container my-5">
         <h1 class="package-heading mt-5 py-5">Our package</h1>
@@ -127,6 +150,10 @@
                   <li class="list-group-item bg-primary text-light"><i class="far fa-check-circle special-check"></i>pay as plan</li>
                 </ul>
                 <a href="#" class="btn btn-light btn-lg text-primary px-5 py-2 ms-3 my-3">Choose Plan</a>
+                <span class="position-absolute top-0 start-120 translate-middle badge rounded-pill py-2 px-3 bg-danger">
+                  Hot
+                  <span class="visually-hidden"></span>
+                </span>
               </div>
             </div>
           </div>
@@ -150,6 +177,10 @@
           </div>
         </div>
       </section>
+
+
+
+
     </main>
 
     <footer></footer>
