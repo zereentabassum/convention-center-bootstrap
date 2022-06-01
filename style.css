@@ -11,6 +11,7 @@ body{
 /* Carousel Section Style */
 .slider-img{
     height: 540px;
+    filter: brightness(65%);
 }
 /* "Our Package" section style */
 .package-heading{
